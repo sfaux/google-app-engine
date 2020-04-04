@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai.vision import *
 
 model_file_url = 'https://drive.google.com/uc?export=download&id=163lU2vEmzS0N54pfWp2lYfypUXzGHfL5'
-model_file_name = 'waste-sorter'
+model_file_name = 'export.pkl'
 classes = ['paper','cardboard','glass','metal','plastic','trash']
 path = Path(__file__).parent
 
